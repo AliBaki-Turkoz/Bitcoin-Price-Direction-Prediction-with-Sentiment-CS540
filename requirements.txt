@@ -1,0 +1,6 @@
+# The notebook was run on Google Colab (2025); exact versions were not recorded.
+pandas
+numpy
+scikit-learn
+matplotlib
+vaderSentiment   # only needed to re-score news / tweets

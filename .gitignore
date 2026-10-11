@@ -1,0 +1,13 @@
+# Working notebooks (experiments merged into the main notebook; kept locally)
+notebooks/*variant*.ipynb
+# Report sources, course material, drafts and speaker notes (kept locally)
+report/*.tex
+docs/
+presentation/*.docx
+# Duplicate spreadsheet copies of the CSV tables
+data/processed/*.xlsx
+# System / notebook artefacts
+.DS_Store
+**/.ipynb_checkpoints/
+__pycache__/
+PUSH_KOMUTLARI.sh

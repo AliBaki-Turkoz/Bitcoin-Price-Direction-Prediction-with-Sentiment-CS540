@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Course** | CS540 – Machine Learning in Finance, Özyeğin University (M.Sc. Computer Engineering), Fall 2025 · Supervisor: Emre Sefer |
-| **Type** | Team project · repository maintained by Ali Baki Türköz |
+| **Type** | Team project (see [Team & contributions](#team--contributions)) · repository maintained by Ali Baki Türköz |
 | **Deliverables** | IEEE-style research paper (not included in this repository), presentation, notebook |
 | **Headline result** | Next-day 3-class direction: best baseline macro-F1 **0.369 ± 0.062** (Price + News, Logistic Regression, 9-fold walk-forward). Chance level ≈ 0.33. |
 
@@ -75,6 +75,16 @@ requirements.txt
 - **Working notebooks are not published.** The project was developed in separate working notebooks and then merged into the single notebook published here. Separately tried LSTM and other larger models stayed below the linear baselines (macro-F1 ≈ 0.15–0.32). They were not part of the paper and are not included.
 - **The notebook is kept as run.** Its outputs show the original Colab environment, such as Drive mount messages.
 - **Data licences:** the derived data tables come from public Kaggle datasets and the alternative.me index. Refer to the original sources for their terms.
+
+## Team & contributions
+| Member | Contribution |
+|---|---|
+| Ali Baki Türköz | Joint work on the whole project |
+| Emre Öztürk | Joint work on the whole project |
+
+Both are authors of the IEEE-format paper and presented the project together. A per-person task split was not recorded in the project documents.
+
+Source: course paper and presentation.
 
 ## Academic integrity
 This is graded coursework, shared as a portfolio project. It was carried out as a team; this repository does not claim it as individual work.
